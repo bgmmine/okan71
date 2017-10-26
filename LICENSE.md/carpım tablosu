@@ -1,0 +1,26 @@
+package deneme;
+import java.util.Scanner;
+public class carpimtablosu {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// verileri yarat
+				int n1, n2;
+				int kullsayisi;
+				
+				// baslik at
+			
+				System.out.println("\t\tcarpim tablosu");
+				System.out.println("\t 1\t 2\t 3\t 4\t 5\t 6\t ");
+				System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ ");
+			
+				for (n1 =1; n1<10; n1++) {
+		            for(n2 =1; n2<10; n2++){
+		            	System.out.print("\t" + n1*n2);
+		            }
+				     System.out.println();    
+
+	}
+
+	}
+}
